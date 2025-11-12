@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Haridus - Portfoolio</title>
+    <meta name="description" content="Akadeemiline taust ja haridustagatised">
+    <meta name="keywords" content="haridus, akadeemiline, kvalifikatsioonid, kraadid">
+    
+    <meta property="og:title" content="Haridus - Portfoolio">
+    <meta property="og:description" content="Akadeemiline taust ja haridustagatised">
+    
+    <meta name="twitter:title" content="Haridus - Portfoolio">
+    <meta name="twitter:description" content="Akadeemiline taust ja haridustagatised">
+    
+    <meta name="google-site-verification" content="L7gjPSlhc4rs_Kj7KzRjx4UMJ1YwRpG8gIzLeZ7ydDU">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #f3f4f6;
+            --text-primary: #111827;
+            --text-secondary: #6b7280;
+        }
+    }
+
+    @layer base {
+        body {
+            @apply bg-white text-[var(--text-primary)] font-sans;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            @apply font-bold;
+        }
+    }
+
+    @layer components {
+        .btn {
+            @apply px-6 py-3 rounded-lg font-medium transition-all duration-300;
+        }
+        
+        .btn-primary {
+            @apply bg-[var(--primary-color)] text-white hover:opacity-90;
+        }
+    }
+    </style>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/EducationContent.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="education-app.js"></script>
+</body>
+</html>
