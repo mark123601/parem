@@ -10,7 +10,7 @@ const translations = {
     },
     about: {
       title: 'Minust',
-      intro: 'Ma olen väga töökas ja pühendunud professionaal, kes armastab luua kvaliteetseid digitaalseid lahendusi.',
+      intro: 'Ma õpin väga hästi ja kiiresti. Olen kiire õppja  ',
       description: 'Minu lähenemisviis ühendab tehnilise oskustöö ja loomingulise mõtlemisega, et pakkuda projekte, mis mitte ainult ei näe head välja, vaid toimivad ka laitmatult. Usun pidevasse õppimisse ja kursis püsimisse tööstuse viimasete trendidega.',
       yearsLabel: 'aastat',
       experienceLabel: 'Kogemust',
